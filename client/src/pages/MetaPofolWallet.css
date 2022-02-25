@@ -1,0 +1,116 @@
+.wallet_body {
+    font-family: Noto Sans;
+    margin-top: 30px;
+}
+
+.account_title {
+    width: 100%;
+    height: 26px;
+    font-size: 22px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.account_address_container {
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    font-size: 14px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.account_address_inner {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.account_address_label {
+    height: 20px;
+    width: 50%;
+    max-width: 200px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.wallet_inner {
+    margin: 0 auto;
+}
+
+.wallet_card_collection {
+    width: 100% ;
+    height: 294px;
+    margin: 0 auto;
+}
+
+.wallet_card_collection_image_wating {
+    width: 120px;
+    height: 170px;
+    border:0;
+    outline: 0;
+    border-radius: 15px;
+    background-color: #E5E5E5;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.wallet_card_collection_image_certi {
+    width: 120px;
+    height: 170px;
+    border:0;
+    outline: 0;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.wallet_card_collection_title {
+    width: 100%;
+    height: 30px;
+    font-size: 24px;
+    margin-left: 20px;
+    justify-content: flex-start;
+    text-align: left;
+    color: #545454;
+}
+
+.wallet_card_collection_item {
+    height: 270px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.wallet_card_collection_item_title {
+    width: 120px;
+    height: 16px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    color: #545454;
+}
+
+.wallet_card_collection_item_wating {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 120%;
+    /* or 30px */
+    align-items: center;
+    color: #545454;
+}
+
+.wallet_card_mint_nft_certi {
+    position: absolute;
+    width: 48px;
+    height: 66px;
+    border:0;
+    outline: 0;
+    margin-top: -19px;
+    margin-left: -10px;
+}

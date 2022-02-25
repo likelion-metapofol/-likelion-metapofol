@@ -1,0 +1,367 @@
+.App-header {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  white-space: pre-wrap;
+  flex:1;
+  margin-bottom: 48px;
+}
+
+.text1 {
+  color: black;
+  font-size: 30px;
+  display: flex;
+  text-align: left;
+  line-height: 40px;
+  flex: 2;
+  margin-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.text2 {
+  color: black;
+  font-size: 30px;
+  display: flex;
+  text-align: left;
+  line-height: 40px;
+  flex: 2;
+  margin-left: 20px;
+  padding-bottom: 30px;
+}
+
+.uniimg {
+  display: flex;
+  flex: 3;
+  margin-left: 20px;
+  width: 450px;
+  object-fit: contain;
+  padding-bottom: 30px;
+}
+
+.button1 {
+  background-color: #d3d3d4;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 35px;
+  align-items: center;
+  border:0;
+  outline: 0;
+  border-radius: 20px;
+}
+
+.button2 {
+  background-color: #9d9bff;
+  margin-bottom: 30px;
+  width: 250px;
+  height: 35px;
+  align-items: center;
+  border:0;
+  outline: 0;
+  border-radius: 20px;
+}
+
+.button3 {
+  background-color: #9d9bff;
+  margin-bottom: 30px;
+  width: 250px;
+  height: 35px;
+  border:0;
+  outline: 0;
+  border-radius: 20px;
+  position: absolute;
+  left: -70px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.button4 {
+  background-color: #9d9bff;
+  margin-bottom: 30px;
+  width: 250px;
+  height: 35px;
+  align-items: center;
+  border:0;
+  outline: 0;
+  border-radius: 20px;
+  flex: 2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.company {
+  color: #fdcc9e;
+  font-size: 30px;
+  display: flex;
+  text-align: left;
+  line-height: 40px;
+  flex: 2;
+  margin-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.school {
+  color: #87b2eb;
+  font-size: 30px;
+  display: flex;
+  text-align: left;
+  line-height: 40px;
+  flex: 2;
+  margin-left: 20px;
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.award {
+  color: #ec80a4;
+  font-size: 30px;
+  display: flex;
+  text-align: left;
+  line-height: 40px;
+  flex: 2;
+  margin-left: 20px;
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.etc {
+  color: #9d9bff;
+  font-size: 30px;
+  display: flex;
+  text-align: left;
+  line-height: 40px;
+  flex: 2;
+  margin-left: 20px;
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.companybtn {
+  background-color: #fdcc9e;
+  width: 120px;
+  height: 180px;
+  border:0;
+  outline: 0;
+  border-radius: 20px;
+  /* position: absolute; */
+  flex: 2;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  float: left;
+  font-size: x-large;
+}
+
+.schoolbtn {
+  background-color: #87b2eb;
+  width: 120px;
+  height: 180px;
+  border:0;
+  outline: 0;
+  border-radius: 20px;
+  /* position: absolute; */
+  flex: 2;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  float: left;
+  font-size: x-large;
+}
+
+.awardbtn {
+  background-color: #e98fad;
+  width: 120px;
+  height: 180px;
+  border:0;
+  outline: 0;
+  border-radius: 20px;
+  /* position: absolute; */
+  flex: 2;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  float: left;
+  font-size: x-large;
+}
+
+.imgtext {
+  margin-bottom: 20px;
+  width: 120px;
+  height: fit-content;
+  border:0;
+  outline: 0;
+  position: absolute;
+  flex: 2;
+  left: 160px;
+  padding-top: 15px;
+  font-size: xx-small;
+}
+
+.imgtext2 {
+  margin-bottom: 20px;
+  width: 120px;
+  height: fit-content;
+  border:0;
+  outline: 0;
+  position: absolute;
+  flex: 2;
+  left: 20px;
+  padding-top: 15px;
+  font-size: xx-small;
+}
+
+.companybtn {
+  background-color: #fdcc9e;
+  width: 120px;
+  height: 180px;
+  border:0;
+  outline: 0;
+  border-radius: 20px;
+  /* position: absolute; */
+  flex: 2;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.certitext {
+  color: black;
+  font-size: 30px;
+  display: flex;
+  text-align: left;
+  line-height: 40px;
+  flex: 2;
+  margin-left: 20px;
+  padding-top: 30px;
+  /* padding-bottom: 30px; */
+  font-size: x-large;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.certismall {
+    color: black;
+    font-size: 15px;
+    display: flex;
+    text-align: left;
+    line-height: 40px;
+    flex: 2;
+    margin-left: 25px;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.btnRadio {
+  color: black;
+  flex: 2;
+  margin-left: 25px;
+  padding-top: 17px;
+  float: left;
+}
+
+.radioText {
+  color: black;
+  flex: 2;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 1px;
+  float: left;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.titletext {
+  width: 450px;
+  height: 35px;
+  margin-left: 20px;
+  border-radius: 90px;
+  outline: 0;
+  border:0;
+  background-color: #ececec;
+}
+
+.expltext {
+  width:450px;
+  height: 120px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  outline: 0;
+  border:0;
+  background-color: #ececec;
+  flex:1;
+  flex-direction: row;
+  font-size: medium;
+  color: gray;
+}
+
+.expltext1 {
+  width:450px;
+  height: 105px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  outline: 0;
+  border:0;
+  background-color: #ececec;
+  flex:1;
+  flex-direction: row;
+  font-size: small;
+  color: gray;
+}
+
+.filebtn {
+  width: 130px;
+  height: 35px;
+  outline: 0;
+  border:0;
+  background-color: #ececec;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: -30px;
+  margin-right: 30px;
+  float: right;
+}
+
+.input-file-button {
+  width: 130px;
+  height: 35px;
+  outline: 0;
+  border:0;
+  background-color: #ececec;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: -30px;
+  margin-right: 30px;
+  float: right;
+  text-align: center;
+  line-height: 2;
+  
+}
+
+.mint-nft-type {
+  width: 300px;
+  height: 450px;
+  border:0;
+  outline: 0;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}

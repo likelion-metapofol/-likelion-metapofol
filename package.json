@@ -1,0 +1,21 @@
+{
+  "name": "metapofol-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./client/src/pages/MetaPofolMainView.js",
+  "scripts": {
+    "backend": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
+  },
+  "author": "metapofol",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "bootstrap": "^5.1.3",
+    "concurrently": "^7.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "nodemon": "^2.0.15"
+  }
+}

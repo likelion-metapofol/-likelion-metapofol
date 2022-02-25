@@ -1,0 +1,19 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 68px;
+    width: 100%;
+    background-color: #A5A8F6;
+    display: flex;
+    text-align: center;
+    flex: 1;
+}
+  
+.headerTitle {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 17px;
+    color: #545454;
+    text-align: center;
+}
